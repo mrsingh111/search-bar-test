@@ -1,0 +1,36 @@
+.container {
+    border: 5px solid #090909;
+    display: flex;
+   
+  }
+  
+  .search {
+    flex: 1;
+  }
+button {
+  font-size: x-large;
+  background-color: rgb(40, 178, 181);
+  
+} 
+
+button:hover {
+  background-color: aquamarine;
+  color: blue;
+  cursor: pointer;
+}
+
+.search-input:hover {
+  background-color: rgb(220, 208, 230);
+}
+
+#btn1 {
+  cursor: url("homepage2.png"), auto;
+}
+
+#btn2 {
+  cursor: url("profile.png"),  auto;
+}
+
+#btn3 {
+  cursor: url("logout.png"), auto;
+}
